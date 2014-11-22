@@ -7,6 +7,5 @@
 ##      ALLOW <user:password | IP-address | IP-range>+
 
 set httpd port 2812
-     ssl enable
      signature disable
      allow monit:monit
