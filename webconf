@@ -1,3 +1,13 @@
+## SET HTTPD PORT <number> [ADDRESS <hostname | IP-address>]
+##      [SSL <ENABLE | DISABLE>]
+##      [PEMFILE <path>]
+##      [CLIENTPEMFILE <path>]
+##      [ALLOWSELFCERTIFICATION]
+##      [SIGNATURE <ENABLE | DISABLE>]
+##      ALLOW <user:password | IP-address | IP-range>+
+
 set httpd port 2812
+     ssl enable
+     allowselfcertification
      signature disable
      allow monit:monit
