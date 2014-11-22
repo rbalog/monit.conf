@@ -8,6 +8,5 @@
 
 set httpd port 2812
      ssl enable
-     allowselfcertification
      signature disable
      allow monit:monit
